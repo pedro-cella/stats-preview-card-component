@@ -43,9 +43,34 @@ div {
   line-height: 1.8;
 }
 
+.list {
+  list-style: none;
+}
+
+.list li {
+  float: left;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.first-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 10px;
+}
+
+.second-item {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .right-card {
   position: absolute;
-  background-color:  rgba(170, 92, 219, 0.5);
+  background-color:  hsl(277, 64%, 45%);
   width: 650px;
   height: 500px;
   margin-left: 650px;
@@ -54,5 +79,7 @@ div {
 }
 
 .image {
-  color: red;
+  width: 650px;
+  height: 500px;
+  filter: opacity(60%);
 }
